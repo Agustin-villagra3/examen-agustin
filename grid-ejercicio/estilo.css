@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+}
+
+.espacio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
+    height: 1200px;
+}
+.columna-r {
+    grid-row: 1/3;
+    background-color: red;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.cuadros-g {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-color: gray;
+}
+p {
+    margin: auto;
+    text-align: center;
+}
+.cuadro-1 {
+    margin: auto;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.fila-c {
+    grid-column: 1/4;
+    background-color: aquamarine;
+}

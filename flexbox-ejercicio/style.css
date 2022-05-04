@@ -1,0 +1,66 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /*seccion1*/
+.contenedor{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1500px;
+    height: auto;
+}
+.cuerpo-1{
+    display: flex;
+    justify-content: space-between;
+}
+.cuerpo-celeste{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: lightseagreen;
+    height: 300px;
+    width: 300px;
+}
+/*seccion2*/
+.cuerpo-2{
+    display: flex;
+    justify-content: space-around;
+}
+.cuerpo-rojo{
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: red;
+    height: 300px;
+    width: 750px;
+}
+/*seccion3*/
+.contenedor-morado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    background-color: blueviolet;
+    height: 1000px;
+    width: auto;
+}
+.contenido-rojo{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: red;
+    height: 300px;
+    width: 750px;
+}

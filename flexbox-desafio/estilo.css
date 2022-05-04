@@ -1,0 +1,41 @@
+
+.contenedor{
+    width: 1500px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(247, 229, 255, 0.664);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 0 auto;
+    background-color: lightgray;
+  }
+a{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+.boton{
+    display: block;
+      background: violet;
+      padding: 10px 20px;
+      text-decoration: none;
+      text-align: center;
+      margin-top: 20px;
+      margin-right: 50px;
+      margin-bottom: 20px;
+}
+.boton a{
+    color: aliceblue;
+}

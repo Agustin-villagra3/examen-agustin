@@ -1,6 +1,14 @@
+html {
+    box-sizing: border-box;
+}
 
+*,
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
 .contenedor{
-    width: 1500px;
+    width: auto;
     height: auto;
     margin: 0 auto;
     background-color: rgba(247, 229, 255, 0.664);
@@ -15,7 +23,7 @@
     justify-content: space-around;
     align-items: center;
     height: 40px;
-    width: 0 auto;
+    width: 50%;
     background-color: lightgray;
   }
 a{

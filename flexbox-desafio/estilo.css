@@ -36,13 +36,13 @@ a{
 }
 .boton{
     display: block;
-      background: violet;
-      padding: 10px 20px;
-      text-decoration: none;
-      text-align: center;
-      margin-top: 20px;
-      margin-right: 50px;
-      margin-bottom: 20px;
+    background: violet;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 .boton a{
     color: aliceblue;
